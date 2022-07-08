@@ -1,11 +1,14 @@
 {
-  "name": "refactoring-classes-ts",
+  "name": "go-restaurant",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/react-dom": "^18.0.6",
+    "@types/react-router-dom": "^5.3.3",
+    "@types/styled-components": "^5.1.25",
     "@unform/core": "^2.1.6",
     "@unform/web": "^2.1.6",
     "axios": "^0.21.1",
@@ -13,9 +16,10 @@
     "react-dom": "^17.0.1",
     "react-icons": "^4.2.0",
     "react-modal": "^3.12.1",
-    "react-router-dom": "^5.2.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "4.0.3",
     "styled-components": "^5.2.1",
+    "typescript": "^4.7.4",
     "yup": "^0.32.9"
   },
   "scripts": {
@@ -44,6 +48,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-typescript": "^7.18.6",
+    "@types/react-icons": "^3.0.0",
+    "@types/react-modal": "^3.13.1",
     "json-server": "^0.16.3"
-  }
+  },
+  "main": "index.js",
+  "repository": "https://github.com/leandrotune/go-restaurant.git",
+  "author": "Leandro Antunes <lele.tune@gmail.com>",
+  "license": "MIT"
 }
